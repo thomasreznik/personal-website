@@ -1,0 +1,93 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #add8e6;
+}
+.navigation-link{
+    border: 2px solid transparent;
+}
+.navigation-link:hover{
+    text-decoration: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    transition: 0.5s ease;
+}
+.main-container{
+    min-height: 100vh;
+    padding-top: 5rem;
+}
+
+.main-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-row img{
+    width: auto;
+    height: 100vh;
+}
+
+.media_text{
+    padding: 1rem;
+    max-width: 12rem;
+    margin-left: 1rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+
+}
+.media_text2{
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+
+}
+.media_text:hover{
+background-color: #000000;
+color: white;
+}
+.media_text2:hover{
+    background-color: #000000;
+    color: white;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.top-screen{
+    background: rgb(51, 164, 179);
+}
+
+.row-experience1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row-experience1 img{
+    width: 200px;
+    height: auto;
+}
+
+.row-experience2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row-experience2 img{
+    width: 300px;
+    height: auto;
+}
+
+.expereince-container{
+    min-height: 20rem;
+    padding-top: 5rem;
+}
+.row-education img{
+    width: 300px;
+    height: auto;
+}
+.row-education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
